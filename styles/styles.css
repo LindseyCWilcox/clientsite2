@@ -1,0 +1,58 @@
+p {
+  font-family: "Arimo", sans-serif;
+} 
+
+h2 {
+  font-family: "Bitter", serif;
+}
+
+header {
+  height: 6.5rem;
+}
+
+header img {
+  float: right;
+  height: 4.5rem;
+  margin: 1rem;
+}
+
+aside {
+  float: left;
+  width: 18%;
+  text-align: left;
+}
+
+.menu {
+  position: fixed;
+  width: 18%;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  line-height: 3em;
+  margin-top: -6.5rem;
+}
+
+.menu li {
+  font-family: "Arimo", sans-serif;
+  font-size: 1em;
+  padding-left: 10px;
+  background-color: #85cd1c;
+  border-bottom-style: solid;
+  border-color: white;
+  border-width: .1em;
+}
+
+.menu li a {
+  color: #F5F5DC;
+  text-decoration: none;
+}
+
+section {
+  float: right;
+  width: 76%;
+  height:20rem;
+  background-color: orange;
+  margin-bottom: 3rem;
+  margin-right: 3%;
+}
