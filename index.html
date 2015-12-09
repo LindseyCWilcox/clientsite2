@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Straight to the Point Site</title>
-    <link href='https://fonts.googleapis.com/css?family=Arimo|Bitter' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Arimo:400,700,400italic,700italic|Bitter:400,400italic,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">    
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
@@ -17,7 +17,7 @@
     </header>
   
     <!--sticky LHS navigation with links to sections on the page and other pages-->
-    <aside>
+    <aside class="menu">
     <nav class="menu">
         <ul>
           <li><a href="#aboutus">About Us</a></li> 
@@ -32,7 +32,7 @@
     
     <section>
       <h2><a id="aboutus">About Us</a></h2>
-      <!--don't have image to use of founder-->
+      <!--don't have image to use of founder. placeholder-->
       <img src="#" alt="photo of founder">
       <p>Straight to the Point Archery is a non profit archery education center founded in 2005 by Giap Nguyen.  Our state of the art educational and training facility incorporates detailed technical video analysis combined with generations of archery experience from certified coaches and instructors.</p>
       <p>Giap Nguyen is an avid and accomplished archer himself, having competed with the United States Archery Team in the 2000 Summer Olympics. He has three children, and  started Straight to the Point in part because he was not satisfied with the archery eduction options for them in Tacoma. After The Hunger Games books and movies came out, he noticed a surge in popularity of archery among young people, especially young women, and the business has been booming ever since.</p>
@@ -45,7 +45,8 @@
     
     <section class="archery">
       <h2><a id="archery">What is Archery?</a></h2>
-      <img src="images/class1.jpg"></a>
+      <img src="images/class1.jpg">
+      <p></p>
       <audio class="player" controls>
         <source src="resrouces/arrow-approaching_and_hitting_target.mp3" type="audio/mpeg">
         <source src="resources/arrow_approaching_and_hitting_target.ogg" type="audio/ogg">Your browser does not support audio
@@ -91,17 +92,17 @@ Equipment will be provided with exception of safety kit.</div>
         <aside>
           <ul>
             <li>
-              <div class="private-lesson-package">Single Lesson</div>
+              <div class="private-lesson-package">Single Private Lesson</div>
               <div class="private-lesson-description">1 hour of expert guidance by a USA Archery-certified coach</div>
               <div class="cost"><span class="bold">Cost:</span> $50</div>
             </li>
             <li>
-              <div class="private-lesson-package">3 Lesson Package</div>
+              <div class="private-lesson-package">3 Private Lessons Package</div>
               <div class="private-lesson-description">3 lessons, 1 hour each of expert guidance by a USA Archery-certified coach</div>
               <div class="cost"><span class="bold">Cost:</span> $140</div>
             </li>
             <li>
-              <div class="private-lesson-package">10 Lesson Package</div>
+              <div class="private-lesson-package">10 Private Lessons Package</div>
               <div class="private-lesson-description">10 lessons, 1 hour each of expert guidance by a USA Archery-certified coach</div>
               <div class="cost"><span class="bold">Cost:</span> $380</div>
             </li>
@@ -110,16 +111,16 @@ Equipment will be provided with exception of safety kit.</div>
       </section>
     
     <!--Contact section includes Google Maps link-->
-    <section>
+    <section class="contact">
       <h2><a id="contact">Contact Us</a></h2>
       <div>Straight to the Point Archery</div>
       <address>
         528 Nock Point Ln
         Tacoma, WA 98412
       </address>
-      <a href="mailto:username@example.com?subject=Website Inquiry">archery-education at example dot com</a>
-      <a href="tel:2535551010">253-555-1010</a> 
-      <a href="http://maps.google.com/maps?q=528+Nock+Point+ln,+Tacoma,+WA+98412">View map</a>
+      <div><a href="mailto:username@example.com?subject=Website Inquiry">archery-education at example dot com</a></div>
+      <div><a href="tel:2535551010">253-555-1010</a></div>
+      <div><a href="http://maps.google.com/maps?q=528+Nock+Point+ln,+Tacoma,+WA+98412" target="_blank">View map</a></div>
     </section>
     
     <footer>
