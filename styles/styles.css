@@ -7,6 +7,7 @@
 h1, h2, h3 {
   font-family: "Bitter", serif;
   font-weight: bold;
+  margin: .6rem;
 }
 
 h2 a {
@@ -17,11 +18,7 @@ h2 a {
 header {
   float: right;
   height: 6.5rem;
-  width: 79%;
-}
-
-header h1 {
-  margin: .6rem;
+  width: 81%;
 }
 
 header img {
@@ -32,7 +29,8 @@ header img {
   margin-right: 3rem;
 }
 
-aside {
+/*formatting "sticky" menu*/
+aside.menu {
   float: left;
   width: 18%;
   text-align: left;
@@ -60,21 +58,25 @@ aside {
   text-decoration: none;
 }
 
+/*audio player*/
 .player {
+  margin: 1rem;
   width: 60%;
 }
 
 section {
   float: right;
-  width: 76%;
+  width: 74%;
   min-height: 100%;
   background-color: #F5F5DC;
   margin-bottom: 3rem;
   margin-right: 3%;
+  text-align: left;
+  padding: 1rem;
 }
 
 .archery img {
-  width: 30%;
+  width: 60%;
   padding: 1rem;
 }
 
@@ -88,57 +90,132 @@ p:first-letter {
   font-weight: bold;
 }
 
+
+
+
+
 /*Formatting the class schedule*/
+
 .bold {
-font-weight:bold;
+  font-weight: bold;
 }
-h3 {
-  padding-bottom: 3px;
-}
-div.class-id {
-  text-align: center;
-  color: black;
+
+.class-id {
   font-weight: bold;
   text-decoration: underline;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  padding-bottom: .3rem;
 }
-div.class-name {
-  text-align: center;
-  color: black;
+
+.class-name {
   font-weight: bold;
-  text-decoration: none;
-  padding-bottom: 2px;
+  margin-left: 1rem;
 }
-div.class-description {
-  text-align: left;
-  color: black;
-  font-weight: normal;
-  text-decoration: none;
-  padding-bottom: 3px;
+
+.class-description {
+  margin-bottom: .2rem;
+  margin-left: 1rem;
+  padding-bottom: .3rem;
 }
-div.cost {
-  text-align: left;
-  color: black;
-  font-weight: normal;
+
+.cost {
   text-decoration: none;
-  padding-bottom: 3px;
+  margin-left: 1rem;
 }
-div.schedule {
-  text-align: left;
-  color: black;
-  font-weight: normal;
+
+.schedule {
   text-decoration: none;
-  padding-bottom: 3px;
+  margin-left: 1rem;
 }
-div.prereq {  text-align: left;
+
+.prereq {  
   color: red;
-  font-weight: normal;
   text-decoration: none;
-  padding-bottom: 5px;
+  margin-left: 1rem;
+  padding-bottom: 1rem;
 }
-div.private-lesson-package {
-  text-align: center;
-  color: black;
+
+.private-lesson-package {
   font-weight: bold;
-  text-decoration: underline;
-  padding-bottom: 3px;
+  text-decoration: underline;  
+  margin-left: 1rem;
+  margin-top: 1rem;
 }
+
+.private-lesson-description { 
+  margin-left: 1rem;
+  margin-top: .2rem;
+  margin-bottom: .3rem;
+}
+
+/*Formatting contact information*/
+
+.contact div, address {
+  margin-left: 1rem;
+}
+
+.contact div {
+  font-weight: bold;
+}
+
+.contact {
+  line-height: 1.3rem;
+}
+
+/*Formatting footer*/
+
+footer {
+  clear: both;
+}
+
+footer li {
+  display: inline;
+  padding: 1rem;
+}
+
+footer ul {
+  margin-left: 41%;
+  padding-bottom: 2rem;
+}
+
+/*Instructor page section and div formatting*/
+
+header.instructor {
+  width: 100%;
+}
+
+header.instructor img {
+  margin-top: 1rem;
+  margin-right: 9.5%;
+}
+
+/*I want the link to be more vertically centered. I've tried every padding, margin, border, etc I can think of and nothing is working.*/
+header.instructor a {
+  margin-left: 9.5%;
+}
+
+section.instructor, div.instructor {
+  float: left;
+  width: 80%;
+  min-height: 100%;
+  background-color: #F5F5DC;
+  margin-left: 8.5%;
+  margin-bottom: 1rem;
+  text-align: left;
+  padding: 1rem;
+}
+
+div.instructor img {
+  width: 40%;
+  margin: 1rem;
+}
+
+div.instructor figcaption {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+  
+
